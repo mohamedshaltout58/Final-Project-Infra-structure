@@ -55,7 +55,7 @@
       kubectl get all -n devops-tools
       
 - From service get EXTERNAL-IP and attach port number :8080 then copy it to your browser to open jenkins GUI
-- Now deploy the slave jenkins to your private-vm from [slave-jenkins](jenkins-deployment/slave-jenkins/) directory
+- Now deploy the slave jenkins to your private-vm from [slave-jenkins](jenkins-deployment/slave-jenkins/) directory and you can find the dockerfile i used to build the images used in the slave-jenkins deployment
       
       kubectl apply -f [file-name]
 - In slave-node pod we should first make some configurations inside it   
